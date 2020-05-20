@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "app-test-cypress": {
+    "saldanha_app": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/app-test-cypress",
+            "outputPath": "dist/saldanha_app",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -62,18 +62,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "app-test-cypress:build"
+            "browserTarget": "saldanha_app:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "app-test-cypress:build:production"
+              "browserTarget": "saldanha_app:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "app-test-cypress:build"
+            "browserTarget": "saldanha_app:build"
           }
         },
         "test": {
@@ -109,42 +109,42 @@
         "e2e": {
           "builder": "@briebug/cypress-schematic:cypress",
           "options": {
-            "devServerTarget": "app-test-cypress:serve",
+            "devServerTarget": "saldanha_app:serve",
             "watch": true,
             "headless": false
           },
           "configurations": {
             "production": {
-              "devServerTarget": "app-test-cypress:serve:production"
+              "devServerTarget": "saldanha_app:serve:production"
             }
           }
         },
         "cypress-run": {
           "builder": "@briebug/cypress-schematic:cypress",
           "options": {
-            "devServerTarget": "app-test-cypress:serve"
+            "devServerTarget": "saldanha_app:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "app-test-cypress:serve:production"
+              "devServerTarget": "saldanha_app:serve:production"
             }
           }
         },
         "cypress-open": {
           "builder": "@briebug/cypress-schematic:cypress",
           "options": {
-            "devServerTarget": "app-test-cypress:serve",
+            "devServerTarget": "saldanha_app:serve",
             "watch": true,
             "headless": false
           },
           "configurations": {
             "production": {
-              "devServerTarget": "app-test-cypress:serve:production"
+              "devServerTarget": "saldanha_app:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "app-test-cypress"
+  "defaultProject": "saldanha_app"
 }
