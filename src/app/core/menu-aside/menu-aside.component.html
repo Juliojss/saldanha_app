@@ -1,14 +1,26 @@
 <section class="menu">
-    <div class="menu__person">
-        <img src="https://previews.123rf.com/images/tuktukdesign/tuktukdesign1606/tuktukdesign160600105/59070189-user-icon-man-profile-businessman-avatar-person-icon-in-vector-illustration.jpg"
-            alt="">
+    <div class="menu__hamburg">
+        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars fa-w-14"
+            role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" (click)="openMenu()">
+            <path fill="currentColor"
+                d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+            </path>
+        </svg>
     </div>
-    <nav class="menu__navbar">
-        <ul>
-            <li>home</li>
-            <li>projetos</li>
-            <li>sobre</li>
-            <li>contato</li>
-        </ul>
-    </nav>
+    <div #menuGroup class="menu__group">
+        <div class="navbar">
+            <div class="navbar__person">
+                <img src="../../../assets/images/eu.jpg" alt="Foto de perfil do Júlio Saldanha">
+            </div>
+            <nav class="navbar__list">
+                <ul>
+                    <li>home</li>
+                    <li>projetos</li>
+                    <li>sobre</li>
+                    <li>contato</li>
+                </ul>
+            </nav>
+        </div>
+        <div class="backdrop" (click)="closeMenu()"></div>
+    </div>
 </section>

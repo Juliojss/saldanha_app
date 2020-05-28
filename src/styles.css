@@ -7,24 +7,3 @@ body {
   width: 100%;
   height: 100%;
 }
-
-.content {
-  display: flex;
-  height: 100%;
-}
-
-.content__aside {
-  position: relative;
-  width: 0;
-}
-
-.content__main {
-  flex: 1;
-}
-
-@media (min-width: 768px) {
-  .content__aside {
-    position: relative;
-    width: 260px;
-  }
-}

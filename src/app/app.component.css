@@ -1,0 +1,26 @@
+.content {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+
+.content__aside {
+  position: relative;
+  width: 100vw;
+  height: 50px;
+}
+
+.content__main {
+  flex: 1;
+}
+
+@media (min-width: 768px) {
+  .content {
+    flex-direction: row;
+  }
+  .content__aside {
+    position: relative;
+    width: 260px;
+    height: 100%;
+  }
+}
