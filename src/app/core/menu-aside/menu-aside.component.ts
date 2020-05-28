@@ -7,18 +7,24 @@ import { Component, OnInit, ViewChild, ElementRef, Renderer2 } from '@angular/co
 })
 export class MenuAsideComponent implements OnInit {
 
-  @ViewChild('menuGroup') menuGroup: ElementRef; 
+  @ViewChild('menuGroup') menuGroup: ElementRef;
 
   constructor(private renderer: Renderer2) { }
 
   ngOnInit(): void {
   }
 
-  openMenu(): void {
+  public openMenu(): void {
     this.renderer.setStyle(this.menuGroup.nativeElement, 'display', 'flex');
   }
 
-  closeMenu(): void {
+  public closeMenu(): void {
     this.renderer.setStyle(this.menuGroup.nativeElement, 'display', 'none');
+  }
+
+  public setDefaultMenu() {
+    if (document.body.offsetWidth >= 768) return this.openMenu();
+
+    this.closeMenu();
   }
 }
