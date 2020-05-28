@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 
 @Component({
   selector: 'app-menu-aside',
@@ -6,10 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./menu-aside.component.css']
 })
 export class MenuAsideComponent implements OnInit {
-
   constructor() { }
 
   ngOnInit(): void {
   }
-
 }
