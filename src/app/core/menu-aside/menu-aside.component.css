@@ -19,15 +19,18 @@ section.menu {
 }
 
 .menu__group {
-  display: none;
+  display: flex;
   position: absolute;
   top: 0;
   height: 100vh;
   width: 100vw;
+  transform: translate(-100%, 0);
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
 
 .navbar {
-  position: absolute;
+  position: fixed;
+  overflow-x: auto;
   width: 60%;
   height: 100%;
   background-color: #355c7d;
@@ -68,12 +71,16 @@ li {
   }
 
   .menu__group {
-    display: block;
     height: 100%;
     width: 100%;
+    position: absolute;
+    top: 0;
+    transform: none;
+    transition: none;
   }
 
   .navbar {
+    position: absolute;
     width: 100%;
   }
 }

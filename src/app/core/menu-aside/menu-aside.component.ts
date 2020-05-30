@@ -15,11 +15,11 @@ export class MenuAsideComponent implements OnInit {
   }
 
   public openMenu(): void {
-    this.renderer.setStyle(this.menuGroup.nativeElement, 'display', 'flex');
+    this.renderer.setStyle(this.menuGroup.nativeElement, 'transform', 'none');
   }
 
   public closeMenu(): void {
-    this.renderer.setStyle(this.menuGroup.nativeElement, 'display', 'none');
+    this.renderer.setStyle(this.menuGroup.nativeElement, 'transform', 'translate(-100%, 0)');
   }
 
   public setDefaultMenu() {
