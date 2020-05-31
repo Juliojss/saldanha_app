@@ -1,15 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MenuAsideComponent } from './menu-aside/menu-aside.component';
-import { FlexLayoutModule } from '@angular/flex-layout';
-
-
+import { SharedModule } from '../shared/shared.module';
 
 @NgModule({
   declarations: [MenuAsideComponent],
   imports: [
     CommonModule,
-    FlexLayoutModule
+    SharedModule
   ],
   exports: [
     MenuAsideComponent

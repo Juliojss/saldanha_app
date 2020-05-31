@@ -12,15 +12,21 @@
         <div class="navbar">
             <div class="navbar__person">
                 <img src="../../../assets/images/eu.jpg" alt="Foto de perfil do Júlio Saldanha">
-                <p>Júlio Saldanha, 20</p>
+                <p class="name">Júlio Saldanha, 20</p>
+                <p class="work">Front-End</p>
+                <hr>
             </div>
             <nav class="navbar__list">
                 <ul>
+                    <li>Home</li>
                     <li>Sobre</li>
                     <li>Projetos</li>
                     <li>Contato</li>
                 </ul>
             </nav>
+            <div class="navbar__sites">
+                <app-social-network></app-social-network>
+            </div>
         </div>
         <div tabindex="0" class="icon-close" aria-label="fechar menu" (click)="closeMenu()">
             <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times"
