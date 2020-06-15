@@ -74,6 +74,10 @@ svg {
   flex: 1;
 }
 
+.navbar__list a {
+  text-decoration: none;
+}
+
 .navbar__sites {
   display: flex;
   justify-content: space-around;

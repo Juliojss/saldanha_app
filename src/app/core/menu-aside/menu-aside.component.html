@@ -18,10 +18,18 @@
             </div>
             <nav class="navbar__list">
                 <ul>
-                    <li>Home</li>
-                    <li>Sobre</li>
-                    <li>Projetos</li>
-                    <li>Contato</li>
+                    <a [routerLink]="['/home']">
+                        <li>Home</li>
+                    </a>
+                    <a [routerLink]="['/about']">
+                        <li>About</li>
+                    </a>
+                    <a [routerLink]="['/projects']">
+                        <li>Projects</li>
+                    </a>
+                    <a [routerLink]="['/contact']">
+                        <li>Contact</li>
+                    </a>
                 </ul>
             </nav>
             <div class="navbar__sites">

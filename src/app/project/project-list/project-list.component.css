@@ -1,0 +1,15 @@
+.section__content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1260px;
+  margin: 100px auto;
+}
+
+.section__content__item {
+    background-color: #fdfdfd;
+    padding: 15px;
+    width: 300px;
+    margin-bottom: 60px;
+    box-shadow: 0px 0px 5px 0px;
+}
