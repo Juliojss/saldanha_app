@@ -3,10 +3,9 @@
     <div class="section__content">
         <div class="section__content__item" *ngFor="let item of projects$ | async">
             <p>{{item.name}}</p>
-            <p>{{item.html_url}}</p>
             <p>{{item.language}}</p>
             <p>{{item.created_at | date}}</p>
-
+            <a [href]="item.html_url" target="_blank">View code</a>
         </div>
     </div>
 </section>
