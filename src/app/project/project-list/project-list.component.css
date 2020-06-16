@@ -7,9 +7,22 @@
 }
 
 .section__content__item {
-    background-color: #fdfdfd;
-    padding: 15px;
-    width: 300px;
-    margin-bottom: 60px;
-    box-shadow: 0px 0px 5px 0px;
+  background-color: #fdfdfd;
+  padding: 15px;
+  width: 300px;
+  margin-bottom: 60px;
+  box-shadow: 0px 0px 5px 0px;
+}
+
+.section__content__item h2 {
+  text-align: center;
+}
+
+.item__language {
+  display: flex;
+  align-items: center;
+}
+
+.item__language p {
+  margin-left: 10px;
 }
