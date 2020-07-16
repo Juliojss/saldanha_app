@@ -1,0 +1,26 @@
+.section__content {
+  max-width: 1260px;
+  margin: 40px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0px 0px 3px 0px;
+}
+
+.section__content__profile .name {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.section__content__profile .email a {
+  color: #355c7d;
+}
+
+.item__curriculum {
+  border-top: 1px solid #a9a8a8;
+  margin-top: 40px;
+}
+
+.subtitle {
+  font-size: 18px;
+  font-weight: bold;
+}

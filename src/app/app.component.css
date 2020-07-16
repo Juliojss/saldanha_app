@@ -12,6 +12,7 @@
 
 .content__main {
   flex: 1;
+  overflow-y: auto;
 }
 
 @media (min-width: 768px) {
