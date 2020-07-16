@@ -1,4 +1,5 @@
 import { Component, OnInit, ViewChild, ElementRef, Renderer2 } from '@angular/core';
+import { Router, NavigationEnd } from '@angular/router';
 
 @Component({
   selector: 'app-menu-aside',
@@ -9,9 +10,21 @@ export class MenuAsideComponent implements OnInit {
 
   @ViewChild('menuGroup') menuGroup: ElementRef;
 
-  constructor(private renderer: Renderer2) { }
+  constructor(
+    private renderer: Renderer2,
+    private router: Router
+  ) { }
+
+  get isMobile() {
+    return document.body.offsetWidth < 768;
+  }
 
   ngOnInit(): void {
+    this.router.events.subscribe(event => {
+      if (this.isMobile && event instanceof NavigationEnd) {
+        this.closeMenu();
+      }
+    });
   }
 
   public openMenu(): void {
@@ -23,7 +36,7 @@ export class MenuAsideComponent implements OnInit {
   }
 
   public setDefaultMenu() {
-    if (document.body.offsetWidth >= 768) return this.openMenu();
+    if (!this.isMobile) return this.openMenu();
 
     this.closeMenu();
   }
