@@ -15,6 +15,12 @@
   overflow-y: auto;
 }
 
+.content__contact {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
 @media (min-width: 768px) {
   .content {
     flex-direction: row;
@@ -23,5 +29,9 @@
     position: relative;
     width: 260px;
     height: 100%;
+  }
+  .content__contact {
+    right: 70px;
+    bottom: 35px;
   }
 }

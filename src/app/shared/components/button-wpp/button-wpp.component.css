@@ -1,0 +1,17 @@
+a {
+  border: none;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
+  background-color: #06d755;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+svg {
+  width: 30px;
+  color: #fff;
+}
