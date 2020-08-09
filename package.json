@@ -10,7 +10,8 @@
     "e2e": "ng e2e",
     "test:watch": "jest --watch",
     "postinstall": "ngcc",
-    "http": "http-server -p 8080 -c-1"
+    "http": "http-server -p 8080 -c-1 dist/saldanha_app",
+    "icon": "ngx-pwa-icons"
   },
   "private": true,
   "dependencies": {
@@ -27,6 +28,7 @@
     "@angular/service-worker": "~10.0.4",
     "@briebug/cypress-schematic": "^3.3.0",
     "@briebug/jest-schematic": "^2.1.1",
+    "ngx-pwa-icons": "^0.1.2",
     "rxjs": "~6.5.4",
     "saldanha-design": "0.0.1",
     "tslib": "^2.0.0",
