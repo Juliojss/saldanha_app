@@ -1,0 +1,96 @@
+{
+  "configVersion": 1,
+  "timestamp": 1596957854217,
+  "index": "https://juliojss.github.io/saldanha_app/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://juliojss.github.io/saldanha_app/5-es2015.7cfc25f6816d155a7bcf.js",
+        "https://juliojss.github.io/saldanha_app/5-es5.7cfc25f6816d155a7bcf.js",
+        "https://juliojss.github.io/saldanha_app/6-es2015.3e143c4b4aba38be0534.js",
+        "https://juliojss.github.io/saldanha_app/6-es5.3e143c4b4aba38be0534.js",
+        "https://juliojss.github.io/saldanha_app/favicon.ico",
+        "https://juliojss.github.io/saldanha_app/index.html",
+        "https://juliojss.github.io/saldanha_app/main-es2015.a794ee50e66f79010136.js",
+        "https://juliojss.github.io/saldanha_app/main-es5.a794ee50e66f79010136.js",
+        "https://juliojss.github.io/saldanha_app/manifest.webmanifest",
+        "https://juliojss.github.io/saldanha_app/polyfills-es2015.a0fa45e0fa52702b64f0.js",
+        "https://juliojss.github.io/saldanha_app/polyfills-es5.2dcde1efe3c1bf4aaa25.js",
+        "https://juliojss.github.io/saldanha_app/runtime-es2015.d4547bf707e782ffd667.js",
+        "https://juliojss.github.io/saldanha_app/runtime-es5.d4547bf707e782ffd667.js",
+        "https://juliojss.github.io/saldanha_app/styles.826ffa19797646185e13.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://juliojss.github.io/saldanha_app/assets/icons/icon-128x128.png",
+        "https://juliojss.github.io/saldanha_app/assets/icons/icon-144x144.png",
+        "https://juliojss.github.io/saldanha_app/assets/icons/icon-152x152.png",
+        "https://juliojss.github.io/saldanha_app/assets/icons/icon-192x192.png",
+        "https://juliojss.github.io/saldanha_app/assets/icons/icon-384x384.png",
+        "https://juliojss.github.io/saldanha_app/assets/icons/icon-512x512.png",
+        "https://juliojss.github.io/saldanha_app/assets/icons/icon-72x72.png",
+        "https://juliojss.github.io/saldanha_app/assets/icons/icon-96x96.png",
+        "https://juliojss.github.io/saldanha_app/assets/images/eu.jpg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://juliojss.github.io/saldanha_app/5-es2015.7cfc25f6816d155a7bcf.js": "d84fee193db9ea995724c0d83df0de9185b75c74",
+    "https://juliojss.github.io/saldanha_app/5-es5.7cfc25f6816d155a7bcf.js": "d0096d0943ee81a04e3b81772850192982794c18",
+    "https://juliojss.github.io/saldanha_app/6-es2015.3e143c4b4aba38be0534.js": "a4da988dc2da956c5b5a0febd53a7eb993f87792",
+    "https://juliojss.github.io/saldanha_app/6-es5.3e143c4b4aba38be0534.js": "69518a6fe7af759812566d63017af6b6b6e4904d",
+    "https://juliojss.github.io/saldanha_app/assets/icons/icon-128x128.png": "540f4e9ba0c49456564d942f3e8dbaf205bb9299",
+    "https://juliojss.github.io/saldanha_app/assets/icons/icon-144x144.png": "e16d2608d6d6f722a22860eb54fec72e342ff95b",
+    "https://juliojss.github.io/saldanha_app/assets/icons/icon-152x152.png": "a82168de5703c8d3b3efc083b14e67d3d3bd2cf2",
+    "https://juliojss.github.io/saldanha_app/assets/icons/icon-192x192.png": "9ea16c07c64bf0b0a474566e69380da95f110908",
+    "https://juliojss.github.io/saldanha_app/assets/icons/icon-384x384.png": "b0b9344360e3bf4fbe7cdcdf15b55b32bd3e4c2b",
+    "https://juliojss.github.io/saldanha_app/assets/icons/icon-512x512.png": "f30d9f49ac9f4f819b3046f4f851eb7a9db4f7cc",
+    "https://juliojss.github.io/saldanha_app/assets/icons/icon-72x72.png": "d0c6e6858b93fb9393a8a5dfd64137aae8f3bb55",
+    "https://juliojss.github.io/saldanha_app/assets/icons/icon-96x96.png": "6cc44fd190fb25c143d45ff7d717837e147dd4f0",
+    "https://juliojss.github.io/saldanha_app/assets/images/eu.jpg": "b780bcb651a12e137fff824dfa71ac6b37f1c9b2",
+    "https://juliojss.github.io/saldanha_app/favicon.ico": "fbe0e1f031ece32454f8ce8b3010c81b754619f5",
+    "https://juliojss.github.io/saldanha_app/index.html": "63e1afb79636a5a50eab7b310768792b43bee865",
+    "https://juliojss.github.io/saldanha_app/main-es2015.a794ee50e66f79010136.js": "9798d5f7dadf54c6ff2f29d68129f340a134b245",
+    "https://juliojss.github.io/saldanha_app/main-es5.a794ee50e66f79010136.js": "7d5006813e66a2c208fd8cd96daabb8ccc065d6a",
+    "https://juliojss.github.io/saldanha_app/manifest.webmanifest": "2c0f1b77085d268995f41098693f75ff73b37a98",
+    "https://juliojss.github.io/saldanha_app/polyfills-es2015.a0fa45e0fa52702b64f0.js": "72ad4ccc0a3916ae4598199447cdeadd6d380570",
+    "https://juliojss.github.io/saldanha_app/polyfills-es5.2dcde1efe3c1bf4aaa25.js": "8dc00539ffcf2fb967b5496bf0cb94a2828b4524",
+    "https://juliojss.github.io/saldanha_app/runtime-es2015.d4547bf707e782ffd667.js": "af61dada072c0f9cfe7909456044277b7b10eae6",
+    "https://juliojss.github.io/saldanha_app/runtime-es5.d4547bf707e782ffd667.js": "d378308bfddbc461e5214a425d918442ecbaff52",
+    "https://juliojss.github.io/saldanha_app/styles.826ffa19797646185e13.css": "8c5f42fa7675dce37c84341d00d5c36168de78a7"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
