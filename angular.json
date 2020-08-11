@@ -45,6 +45,7 @@
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true,
+              "baseHref": "/saldanha_app/",
               "budgets": [
                 {
                   "type": "initial",
